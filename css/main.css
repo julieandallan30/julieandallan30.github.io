@@ -1,0 +1,276 @@
+/* general rules */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+
+.main-container, .landing-page, .container, .jumbotron .couple-page {
+	height: 100%;
+	width: 100%;
+}
+
+/* first */
+
+#first {
+	height: 100%;
+	background-image: 
+	linear-gradient(
+		rgba(245, 237, 9, 0.45),
+		rgba(0, 184, 255, 0.45)
+	),
+	url("../images/allan.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-bottom: 4px solid #f5ed0973;
+	border-left: 4px solid #f5ed0973;
+	border-right: 4px solid #f5ed0973;
+}
+#first h1 {
+	text-align: center;
+	
+}
+#first h2 {
+	text-align: center;
+	
+}
+#m1 {
+	margin-top: 150px;
+}
+#m1 h1 {
+	font-family: 'Great Vibes', cursive;
+	color: #fff;
+	font-weight: 500;
+	font-size: 65px;
+	text-shadow: 0 0 50px #f400f7;
+	letter-spacing: 3px;
+}
+
+#m1 h2 {
+	font-weight: 800;
+	font-size: 48px;
+	letter-spacing: 2px;
+	font-family: 'Dosis', sans-serif;
+	color: #212529;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+
+/* second */
+
+#second	{
+	height: 20%;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-image:
+	linear-gradient(
+		rgba(203, 102, 236, 0.50),
+		rgba(0, 184, 255, 0.45)
+	),
+	url("../images/road.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 4px solid #f5ed0973;
+}
+#second	h2 {
+	font-size: 65px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 800;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#second	h4 {
+	color: #f50200;
+	font-size: 55px;
+	font-family: 'Great Vibes', cursive;
+	font-weight: 600;
+}
+
+/* couple */
+
+#couple {
+	text-align: center;
+	background-image: url("../images/couple-heart.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 4px solid #f5ed0973;
+}
+.couple-page h1 {
+	font-size: 68px;
+	letter-spacing: 2px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 800;
+	text-align: center;
+	padding-bottom: 20px;
+    text-shadow: 2px 4px 8px #657eff, 0 0 0 #000, 2px 4px 8px #7323f9;
+}
+.couple-page h1 span {
+	color: #3b10de;
+	font-size: 60px;
+
+}
+.couple-page h3 {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	font-weight: bold;
+	color: #b315ce;
+	text-shadow: 0 0 60px #1094c7;
+	letter-spacing: 3px;
+}
+.couple-page h4 {
+	text-align: center;
+	font-family: 'Kanit', sans-serif;
+	font-size: 30px;
+	letter-spacing: 0;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.img-fluid {
+	display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+/* third */
+
+#third	{
+	height: 100%;
+	text-align: center;
+	list-style-type: none;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background-image: url("../images/feat.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 4px solid #f5ed0973;
+}
+
+.feature-page h1 {
+	font-size: 60px;
+	letter-spacing: 2px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 10px;
+    text-shadow: 2px 4px 6px #657eff, 0 0 0 #000, 2px 4px 6px #7323f9;
+}
+.feature-page h1 span {
+	color: #3b10de;
+}
+
+#third ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.headerlist {
+	font-weight: 900;
+	font-size: 29px;
+	margin-top: 6px;
+	margin-bottom: 5px;
+	padding: 0;
+	letter-spacing: 0;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#third ul li {
+	display: block;
+	padding: 3px 0;
+	font-style: italic;
+	
+}
+#third .list {
+	font-weight: 500;
+	font-size: 28px;
+	color: #b315ce;
+	font-family: 'Great Vibes', cursive;
+	letter-spacing: 2px;
+}
+#left-list, #right-list {
+	margin-top: 30px;
+}
+#invitation {
+	font-weight: 900;
+	font-size: 29px;
+	margin-top: 6px;
+	margin-bottom: 5px;
+	text-align: center;
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.feature-page h4 span {
+	color: #3b10de;
+}
+/* footer */
